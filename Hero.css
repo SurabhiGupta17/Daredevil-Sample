@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    line-height: 30px;
+    background-image: url("Back3.jfif");
+}
+
+/*witing comments in css */
+
+header{
+    background-image: url("Back8.jpg");
+    background-repeat: repeat-x;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header h1{
+    color : white;
+    font-size: 120px;
+    font-family: 'Barrio', cursive;
+}
+
+header h2{
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+header img{
+    width: 500px;
+    border-radius: 400px;
+    border-width: 20px;
+    border-color: #B8D8BA;
+}
+
+
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px 40px 50px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+p{
+    font-size: 20px;
+}
+
+p a{
+    color: #C50720;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #B8D8BA;
+    background-color: #1E0322;
+}
+
+footer{
+    background-color: #1E0322;
+    color: #B8D8BA;
+    text-align: center;
+    padding: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+footer a{
+    color: aliceblue;
+}
+
+
+footer a:hover{
+    opacity: .5;
+    background-color: transparent;
+}
+
+p.Captions{
+    color: gray;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.boxed{
+    border: 1px ;
+    background-color: white;
+    padding: 30px 90px 50px 90px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.boxed h2{
+    font-size: 50px;
+    text-align: left;
+}
+
+.boxed h3 a{
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.boxed h3 a:hover{
+    color:aliceblue;
+    background-color: #1E0322;
+}
+
+ol a{
+    color: #C50720;
+    text-decoration: none;
+}
+
+ol a:hover{
+    color:aliceblue;
+    background-color: #1E0322;
+}
+
+ol li{
+    color: #C50720;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.column {
+    float: left;
+    width: 31%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: left;
+  }
+
+.container {
+    padding: 0 16px;
+  }
+  
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #B8D8BA;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+.button:hover {
+    background-color: #555;
+  }
+
+.button a{
+    color: black;
+}
